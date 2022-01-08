@@ -1,0 +1,56 @@
+.backgound {
+    background-color: rgba(106, 106, 106, 0.618);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+
+    // right: 250px;
+    top: 0px;
+    z-index: 100;
+}
+.backgoundsmall {
+    width: 100vh;
+    right: 100px;
+    position: relative;
+    top: 100px;
+    height: 80vh;
+    overflow: scroll;
+    background-color: white;
+    border-radius: 30px;
+}
+.right {
+    color: red;
+    position: relative;
+    top: -50px;
+    left: 85%;
+    // right: 100px;
+}
+.right:hover {
+    cursor: pointer;
+}
+.Textcss {
+    display: inline;
+    color: black;
+}
+// .text {
+//     display: inline;
+// }
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.round:hover {
+    background-color: rgb(108, 96, 96);
+    color: black;
+}
