@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import ViewItem from './ViewItem';
-
+import Zoom from 'react-medium-image-zoom'
 BillItem.propTypes = {
 
     customer: PropTypes.object,
@@ -54,11 +54,14 @@ function BillItem(props) {
                 </td>
                 {/* receipt */}
                 <td className="text-center">
-                    {<img
+
+                    {<Zoom><img
                         src={URL + customer['avatar']}
                         style={styles.image}
                         alt="Thumb"
-                    />}
+                    />
+                    </Zoom>
+                    }
                 </td>
                 {/* type*/}
                 <td className="text-center">

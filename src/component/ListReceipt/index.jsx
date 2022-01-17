@@ -7,6 +7,8 @@ import { useState } from "react";
 import InputReceipt from './InputReceipt';
 import ResultDetect from './ResultDetect';
 import axios from "axios";
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 ListReceipt.propTypes = {
 
 };
@@ -44,7 +46,11 @@ function ListReceipt(props) {
     const removeSelectedImage = () => {
         setSelectedImage();
     };
-
+    const BackAdd = () => {
+        removeSelectedImage();
+        setValue(!value);
+        setdataHTML("Server đang xử lý ")
+    }
     // axios.post(
     //     "http://172.26.33.214:4002/api/helpers/uploadAvatar",
     //     formData,
@@ -180,6 +186,7 @@ function ListReceipt(props) {
             alert("Chon Hinh anh")
         }
     }
+
     const remove = value ? <button onClick={removeSelectedImage} style={styles.delete}> Xóa hình ảnh</button> : ""
     return (
         <div>
@@ -205,11 +212,13 @@ function ListReceipt(props) {
 
                         {selectedImage && (
                             <div style={styles.preview}>
-                                <img
-                                    src={URL.createObjectURL(selectedImage)}
-                                    style={styles.image}
-                                    alt="Thumb"
-                                />
+                                <Zoom>
+                                    <img
+                                        src={URL.createObjectURL(selectedImage)}
+                                        style={styles.image}
+                                        alt="Thumb"
+                                    />
+                                </Zoom>
                                 {remove}
                             </div>
                         )}
@@ -218,7 +227,13 @@ function ListReceipt(props) {
                 </div>
 
                 <div className="col-lg-8">
-                    {value ? < InputReceipt imageChange={imageChange} HandleOnClick={HandleOnClick} ></InputReceipt> : <ResultDetect dataHTML={dataHTML}></ResultDetect>}
+                    {value ? < InputReceipt imageChange={imageChange} HandleOnClick={HandleOnClick} ></InputReceipt> : <div><ResultDetect dataHTML={dataHTML}> </ResultDetect>
+                        <div className="form-row text-center">
+                            <div className="col-12">
+                                <button onClick={BackAdd} className="btn btn-primary btn-user  ">Thêm Hóa Đơn Mới </button>
+                                <button type="submit" className="btn btn-primary btn-user  ">Xem Visualize </button>
+                            </div>
+                        </div> </div>}
 
 
                 </div>

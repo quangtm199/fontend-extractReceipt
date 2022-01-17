@@ -11,7 +11,7 @@ function ResultDetect(props) {
         <div>
             <div className="p-5">
                 <div className="text-center">
-                    <h1 className="h4 text-black-700 mb-4">Ket Qua Hoa Don</h1>
+                    <h1 className="h4 text-black-700 mb-4">Kết Quả Hóa Đơn</h1>
                 </div>
 
                 <div className="form-group row">

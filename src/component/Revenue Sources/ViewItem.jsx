@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import "./ViewItem.scss"
 import ItemDisplay from './ItemDisplay';
+import { MapInteractionCSS } from 'react-map-interaction';
+import Zoom from 'react-medium-image-zoom';
+
 ViewItem.propTypes = {
     onCloseForm: PropTypes.func,
     billdetail: PropTypes.object
@@ -44,11 +47,16 @@ function ViewItem(props) {
 
                                 {customer['avatar'] && (
                                     <div style={styles.preview}>
-                                        <img
-                                            src={URL + customer['avatar']}
-                                            style={styles.image}
-                                            alt="Thumb"
-                                        />
+                                        <Zoom>
+                                            {/* <MapInteractionCSS> */}
+                                            <img
+                                                src={URL + customer['avatar']}
+                                                style={styles.image}
+                                                alt="Thumb"
+                                            />
+                                            {/* </MapInteractionCSS> */}
+
+                                        </Zoom>
                                         {/* {remove} */}
                                     </div>
                                 )}
