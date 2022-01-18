@@ -17,8 +17,24 @@ function Sobill(props) {
                         <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
                                 <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                    Earnings (Monthly)</div>
+                                Doanh Thu Thàng Này</div>
                                 <div className="h5 mb-0 font-weight-bold text-gray-800">{ernermonth['monthly']}</div>
+                            </div>
+                            <div className="col-auto">
+                                <i className="fas fa-calendar fa-2x text-gray-300" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="col-xl-3 col-md-6 mb-4">
+                <div className="card border-left-primary shadow h-100 py-2">
+                    <div className="card-body">
+                        <div className="row no-gutters align-items-center">
+                            <div className="col mr-2">
+                                <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                Số Hóa Đơn Tháng Này</div>
+                                <div className="h5 mb-0 font-weight-bold text-gray-800">{ernermonth['length_month']}</div>
                             </div>
                             <div className="col-auto">
                                 <i className="fas fa-calendar fa-2x text-gray-300" />
@@ -29,14 +45,13 @@ function Sobill(props) {
             </div>
 
 
-
             <div className="col-xl-3 col-md-6 mb-4">
                 <div className="card border-left-success shadow h-100 py-2">
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
                                 <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                    Tong thu nhap</div>
+                                Tổng Thu Nhập</div>
                                 <div className="h5 mb-0 font-weight-bold text-gray-800">{erner.annual}</div>
                             </div>
                             <div className="col-auto">
@@ -53,7 +68,7 @@ function Sobill(props) {
                         <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
                                 <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                    So luong Bill</div>
+                                Tổng Số Lượng Hóa Đơn</div>
                                 <div className="h5 mb-0 font-weight-bold text-gray-800">{erner['length']}</div>
                             </div>
                             <div className="col-auto">
@@ -69,7 +84,7 @@ function Sobill(props) {
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
-                                <div className="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
+                                <div className="text-xs font-weight-bold text-info text-uppercase mb-1">Nhiệm Vụ Hoàn Thành
                                 </div>
                                 <div className="row no-gutters align-items-center">
                                     <div className="col-auto">
@@ -97,7 +112,7 @@ function Sobill(props) {
                         <div className="row no-gutters align-items-center">
                             <div className="col mr-2">
                                 <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                    Pending Requests</div>
+                                Chưa Hoàn Thành</div>
                                 <div className="h5 mb-0 font-weight-bold text-gray-800">18</div>
                             </div>
                             <div className="col-auto">

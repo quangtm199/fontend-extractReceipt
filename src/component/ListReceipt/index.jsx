@@ -23,7 +23,8 @@ const http = axios.create({
 function ListReceipt(props) {
 
     const [selectedImage, setSelectedImage] = useState();
-
+    const [selectedImage1, setSelectedImage1] = useState();
+    const [selectedImage123, setSelectedImage123] = useState();
     const [generalReceipt, setGeneralRecepts] = useState(
         {
             avatar: "",
@@ -41,6 +42,7 @@ function ListReceipt(props) {
     const imageChange = (e) => {
         if (e.target.files && e.target.files.length > 0) {
             setSelectedImage(e.target.files[0]);
+            setSelectedImage1(e.target.files[0])
         }
     };
     const removeSelectedImage = () => {
@@ -50,6 +52,8 @@ function ListReceipt(props) {
         removeSelectedImage();
         setValue(!value);
         setdataHTML("Server đang xử lý ")
+        setSelectedImage();
+        setSelectedImage123();
     }
     // axios.post(
     //     "http://172.26.33.214:4002/api/helpers/uploadAvatar",
@@ -186,7 +190,24 @@ function ListReceipt(props) {
             alert("Chon Hinh anh")
         }
     }
+    
 
+    const XemVisual= ()=>{
+        if (selectedImage){
+        
+        // const URL = "http://172.26.33.214:4002/upload/" + selectedImage['name']
+    
+        setSelectedImage()
+        setSelectedImage123("http://172.26.33.214:4002/upload/" + selectedImage['name']);
+    }
+        else{
+            setSelectedImage(selectedImage1)
+            setSelectedImage123();
+            
+        }
+
+
+    }
     const remove = value ? <button onClick={removeSelectedImage} style={styles.delete}> Xóa hình ảnh</button> : ""
     return (
         <div>
@@ -210,7 +231,7 @@ function ListReceipt(props) {
                     <div style={styles.container}>
 
 
-                        {selectedImage && (
+                        { selectedImage && (
                             <div style={styles.preview}>
                                 <Zoom>
                                     <img
@@ -222,6 +243,23 @@ function ListReceipt(props) {
                                 {remove}
                             </div>
                         )}
+
+                    { selectedImage123 &&
+                            
+                                <Zoom>
+                                    <img
+                                        src={selectedImage123}
+                                        style={styles.image}
+                                        alt="Thumb"
+                                    />
+                                </Zoom>
+                                
+                           
+                             
+                    
+                        }
+
+
                     </div>
                     {/* <img className='color-boximg' alt="Image" src="https://previews.123rf.com/images/dxinerz/dxinerz1504/dxinerz150400506/38621232-receipt-invoice-bill-icon-image-.jpg" /> */}
                 </div>
@@ -231,7 +269,7 @@ function ListReceipt(props) {
                         <div className="form-row text-center">
                             <div className="col-12">
                                 <button onClick={BackAdd} className="btn btn-primary btn-user  ">Thêm Hóa Đơn Mới </button>
-                                <button type="submit" className="btn btn-primary btn-user  ">Xem Visualize </button>
+                                <button onClick={XemVisual} type="submit" className="btn btn-primary btn-user  ">Xem Visualize </button>
                             </div>
                         </div> </div>}
 

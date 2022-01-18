@@ -100,13 +100,13 @@ function RevenueSoureces(props) {
                         <table className="table table-bordered table-hover">
                             <thead>
                                 <tr>
-                                    <th className="text-center">ID</th>
-                                    <th className="text-center">Status</th>
-                                    <th className="text-center">Receipt</th>
-                                    <th className="text-center">Type</th>
-                                    <th className="text-center">Total</th>
-                                    <th className="text-center">Date</th>
-                                    <th className="text-center"></th>
+                                    <th className="text-center">Stt</th>
+                                    <th className="text-center">Trạng Thái</th>
+                                    <th className="text-center">Hóa Đơn</th>
+                                    <th className="text-center">Loại</th>
+                                    <th className="text-center">Tổng Tiền</th>
+                                    <th className="text-center">Ngày nhập</th>
+                                    <th className="text-center">Thao Tác</th>
                                 </tr>
                             </thead>
 

@@ -8,7 +8,7 @@ ItemDisplay.propTypes = {
 function ItemDisplay(props) {
     const { item } = props
 
-
+    console.log(item)
     return (
 
         <tr><td>{item['nameitem']}</td><td> {item['unit']} </td><td>{item['unitprice']}</td><td>{item['price']}</td></tr>

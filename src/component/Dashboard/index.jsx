@@ -42,25 +42,25 @@ function Dashboard(props) {
                     <div className="sidebar-brand-icon rotate-n-15">
                         <i className="fas fa-laugh-wink" />
                     </div>
-                    <div className="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                    <div className="sidebar-brand-text mx-3">Quản Lý <sup>rp</sup></div>
                 </a>
                 <hr className="sidebar-divider my-0" />
 
                 <li className="nav-item">
 
-                    <NavLink to="/Dashboard" className="nav-link " activateclassname="active" exact="true" > <i className="fas fa-fw fa-tachometer-alt" /> <span>Dashboard</span></NavLink>
+                    <NavLink to="/Dashboard" className="nav-link " activateclassname="active" exact="true" > <i className="fas fa-fw fa-tachometer-alt" /> <span>Quản Lý</span></NavLink>
 
                 </li>
                 <hr className="sidebar-divider" />
                 <hr className="sidebar-divider" />
                 <li className="nav-item">
 
-                    <NavLink to="/home" className="nav-link " activateclassname="active" exact="true" > <i className="fas fa-fw fa-table" /> <span>Home</span></NavLink>
+                    <NavLink to="/home" className="nav-link " activateclassname="active" exact="true" > <i className="fas fa-fw fa-table" /> <span>Hóa Đơn</span></NavLink>
 
                 </li>
                 <li className="nav-item ">
 
-                    <NavLink to="/Item" activateclassname="active" className="nav-link "  > <i className="fas fa-fw fa-table" /> <span>Item</span></NavLink>
+                    <NavLink to="/Item" activateclassname="active" className="nav-link "  > <i className="fas fa-fw fa-table" /> <span>NewFeature</span></NavLink>
 
                 </li>
 

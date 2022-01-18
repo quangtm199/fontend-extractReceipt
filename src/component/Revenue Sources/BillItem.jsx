@@ -25,7 +25,7 @@ function BillItem(props) {
     var ViewItem123 = toogle ? <ViewItem onCloseForm={onCloseForm} billdetail={billdetail} customer={customer} ></ViewItem> : ""
 
 
-    const URL = "http://172.26.33.214:4002/upload/"
+    const URL = "http://172.26.33.214:4002/upload/" 
     return (
 
         <tbody>
@@ -40,15 +40,15 @@ function BillItem(props) {
                 </td>
                 {/* status */}
                 <td className="text-center">
-                    {customer['status'] === "done" ?
+                    {customer['status'] === "notdone" ?
 
                         <button type="button" className="btn btn-success "  >
 
-                            <span className="fas fa-check-circle"> Done</span>
+                            <span className="fas fa-check-circle"> Hoàn thành</span>
                             {/* <span className="fa fa-pencil mr-5"></span>Sửa */}
                         </button> :
 
-                        <button type="button" className="btn btn-warning"> <span className="fas fa-ban"></span>NotDone</button>
+                        <button type="button" className="btn btn-warning"> <span className="fas fa-ban"></span>Chưa Hoàn thành</button>
 
                     }
                 </td>
@@ -81,7 +81,7 @@ function BillItem(props) {
                     </button>
                     <button type="button" className="btn btn-danger" >
 
-                        <span className="fas fa-edit " ></span>ChinhSua
+                        <span className="fas fa-edit " ></span>Chỉnh Sửa
                     </button>
                 </td>
             </tr>

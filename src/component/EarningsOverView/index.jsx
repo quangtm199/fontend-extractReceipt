@@ -53,8 +53,24 @@ function EarningsOverView(props) {
             var id = 0
 
             setBilldetail(res.data)
-
+            console.log(res.data)
+            var idmonth = 0
+            var today = new Date()
+            var totalmonth = 0
+            var month123 = today.getMonth() + 1
             for (var i = 0; i < res.data.length; i++) {
+               
+             
+           
+                var time_submit = parseInt(String(res.data[i]['time_submit']).split("-")[1])
+                if (time_submit ==month123) {
+                    var converint = res.data[i]['totalcost'].replace(",", "").replace(".", "")
+                    if (converint){
+                        totalmonth = totalmonth + parseInt(converint)}
+
+                    idmonth = idmonth + 1
+             
+                }
                 // console.log(parseInt(res.data[i]['totalcost'].replace(",","").replace(".","")))
                 if (res.data[i]['totalcost']) {
                     var converint = res.data[i]['totalcost'].replace(",", "").replace(".", "")
@@ -64,6 +80,7 @@ function EarningsOverView(props) {
 
                 // setErner(...erner,['length'], i)
             }
+            setErnermonth({ ...ernermonth, 'allBill': res.data.length + 1, 'length_month': idmonth, ['monthly']: totalmonth, "list_not_done": 100 })
             setErner({ ...erner, ['length']: id, ['annual']: total })
             // console.log(erner)
 
@@ -71,42 +88,43 @@ function EarningsOverView(props) {
 
         }
         )
-        await getAlluser().then(res => {
-            var totalmonth = 0
-            var idmonth = 0
-            var today = new Date()
-            var month123 = today.getMonth() + 1
-            var list_not_done = 0
-            for (var i_u = 0; i_u < res.data.length; i_u++) {
-                var status = res.data[i_u]['status']
-                if (status == "notdone") {
-                    list_not_done = list_not_done + 1
-                }
+        // await getAlluser().then(res => {
+        //     var totalmonth = 0
+        //     var idmonth = 0
+        //     var today = new Date()
+        //     var month123 = today.getMonth() + 1
+        //     var list_not_done = 0
+        //     console.log(res.data)
+        //     for (var i_u = 0; i_u < res.data.length; i_u++) {
+        //         var status = res.data[i_u]['status']
+        //         if (status == "notdone") {
+        //             list_not_done = list_not_done + 1
+        //         }
 
-                var month = res.data[i_u]['time'].split("/")
-                console.log("month", month[2])
-                console.log(month123)
-                if (month[2] == month123) {
-                    console.log("billdetail", billdetail)
-                    console.log("i_u", i_u)
-                    if (billdetail[i_u]) {
-                        console.log("Asd", billdetail[i_u])
-                        if (billdetail[i_u]['totalcost']) {
-                            var converint = billdetail[i_u]['totalcost'].replace(",", "").replace(".", "")
-                            totalmonth = totalmonth + parseInt(converint)
+        //         var month = res.data[i_u]['time'].split("/")
+        //         // console.log("month", month[2])
+        //         // console.log(month123)
+        //         if (month[2] == month123) {
+        //             // console.log("billdetail", billdetail)
+        //             // console.log("i_u", i_u)
+        //             if (billdetail[i_u]) {
+        //                 // console.log("Asd", billdetail[i_u])
+        //                 if (billdetail[i_u]['totalcost']) {
+        //                     var converint = billdetail[i_u]['totalcost'].replace(",", "").replace(".", "")
+        //                     totalmonth = totalmonth + parseInt(converint)
 
-                            idmonth = idmonth + 1
-                        }
-                    }
-                    setErnermonth({ ...ernermonth, 'allBill': i_u + 1, 'length_month': idmonth, ['monthly']: totalmonth, "list_not_done": list_not_done })
-                }
+        //                     idmonth = idmonth + 1
+        //                 }
+        //             }
+        //             setErnermonth({ ...ernermonth, 'allBill': i_u + 1, 'length_month': idmonth, ['monthly']: totalmonth, "list_not_done": list_not_done })
+        //         }
 
-                // console.log(res.data)
-                // console.log(ernermonth)
-            }
+        //         // console.log(res.data)
+        //         // console.log(ernermonth)
+        //     }
 
 
-        })
+        // })
 
 
     }
@@ -119,7 +137,7 @@ function EarningsOverView(props) {
 
             <Sobill erner={erner} ernermonth={ernermonth} />
 
-            <Overview></Overview>
+            {/* <Overview></Overview> */}
         </div>
     );
 }
