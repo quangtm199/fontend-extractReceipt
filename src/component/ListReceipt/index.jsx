@@ -9,11 +9,14 @@ import ResultDetect from './ResultDetect';
 import axios from "axios";
 import Zoom from 'react-medium-image-zoom'
 import 'react-medium-image-zoom/dist/styles.css'
+import httpLink_service from '../API/Configs'
+import httpLink_db from '../API/Configs'
 ListReceipt.propTypes = {
 
 };
+
 const http = axios.create({
-    baseURL: ' http://172.26.33.214:4002',
+    baseURL: httpLink_service.httpLink_service,
     headers: { "Content-type": "application/json" }
 
 
@@ -94,7 +97,7 @@ function ListReceipt(props) {
 
     const sendPostRequest = async (formData) => {
 
-        const resp = await axios.post('http://172.26.33.214:4002/api/helpers/uploadAvatar', formData, {
+        const resp = await axios.post(httpLink_service.httpLink_service + 'api/helpers/uploadAvatar', formData, {
             headers: {
                 'Accept': 'application/json',
 
@@ -124,7 +127,7 @@ function ListReceipt(props) {
             // }
             // console.log(formData['file'])
             axios.post(
-                "http://172.18.5.16:4000/bills",
+                httpLink_db.httpLink_db + "bills",
                 fromvalue,
                 {
                     headers: {
@@ -141,7 +144,7 @@ function ListReceipt(props) {
 
             // sendPostRequest(formData);
             axios.post(
-                "http://172.26.33.214:4002/api/helpers/uploadAvatar",
+                httpLink_service.httpLink_service + "api/helpers/uploadAvatar",
                 formData,
                 {
                     headers: {
@@ -160,7 +163,7 @@ function ListReceipt(props) {
                 setObjnew(objnew_result)
                 setdataHTML(dataHTMLnew)
                 axios.post(
-                    "http://172.18.5.16:4000/resultBill",
+                    httpLink_db.httpLink_db + "resultBill",
                     objnew_result,
                     {
                         headers: {
@@ -190,20 +193,20 @@ function ListReceipt(props) {
             alert("Chon Hinh anh")
         }
     }
-    
 
-    const XemVisual= ()=>{
-        if (selectedImage){
-        
-        // const URL = "http://172.26.33.214:4002/upload/" + selectedImage['name']
-    
-        setSelectedImage()
-        setSelectedImage123("http://172.26.33.214:4002/upload/" + selectedImage['name']);
-    }
-        else{
+
+    const XemVisual = () => {
+        if (selectedImage) {
+
+            // const URL = "http://172.26.33.214:4002/upload/" + selectedImage['name']
+
+            setSelectedImage()
+            setSelectedImage123(httpLink_service.httpLink_service + "upload/" + selectedImage['name']);
+        }
+        else {
             setSelectedImage(selectedImage1)
             setSelectedImage123();
-            
+
         }
 
 
@@ -231,7 +234,7 @@ function ListReceipt(props) {
                     <div style={styles.container}>
 
 
-                        { selectedImage && (
+                        {selectedImage && (
                             <div style={styles.preview}>
                                 <Zoom>
                                     <img
@@ -244,19 +247,19 @@ function ListReceipt(props) {
                             </div>
                         )}
 
-                    { selectedImage123 &&
-                            
-                                <Zoom>
-                                    <img
-                                        src={selectedImage123}
-                                        style={styles.image}
-                                        alt="Thumb"
-                                    />
-                                </Zoom>
-                                
-                           
-                             
-                    
+                        {selectedImage123 &&
+
+                            <Zoom>
+                                <img
+                                    src={selectedImage123}
+                                    style={styles.image}
+                                    alt="Thumb"
+                                />
+                            </Zoom>
+
+
+
+
                         }
 
 

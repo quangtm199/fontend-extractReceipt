@@ -4,12 +4,14 @@ import HeadAddReicepts from '../HeadAddReicepts';
 import { BrowserRouter as Router, Route, Link, Routes, NavLink } from 'react-router-dom'
 import axios from "axios";
 import BillItem from './BillItem';
+import httpLink_service from '../API/Configs'
+import httpLink_db from '../API/Configs'
 RevenueSoureces.propTypes = {
 
 };
 
 const http = axios.create({
-    baseURL: ' http://172.18.5.16:4000',
+    baseURL: httpLink_db.httpLink_db,
     headers: { "Content-type": "application/json" }
 
 
@@ -41,7 +43,18 @@ function RevenueSoureces(props) {
         totalRow: 1
 
     });
-
+    const [toogle, setToogle] = useState(false);
+    function onSubmitForm() {
+        setToogle(!toogle)
+    }
+    function changebill(data) {
+        // console.log(data.bill)
+        // console.log(billdetail[data.indexbill]['totalcost'])
+        billdetail[data.indexbill] = data.bill
+        // console.log( billdetail)
+        setBilldetail(billdetail)
+        // console.log(billdetail[data.indexbill])
+    }
     function handlePageChange(newPage) {
         setPagination({ ...pagination, page: newPage })
 
@@ -52,7 +65,7 @@ function RevenueSoureces(props) {
         rechieveCustomer();
 
 
-    }, []);
+    }, [toogle]);
     const rechieveCustomer = async () => {
         await getAllBill().then(res => {
             // console.log("data: ", res.data['list']);
@@ -114,7 +127,7 @@ function RevenueSoureces(props) {
                                 if (index >= pagination.page * pagination.limit && index <= pagination.page * pagination.limit + pagination.limit)
 
                                     return (
-                                        <BillItem key={index} indexbill={index} customer={item} billdetail={billdetail[index]}>
+                                        <BillItem onSubmitForm={onSubmitForm} changebill={changebill} key={index} indexbill={index} customer={item} billdetail={billdetail[index]}>
 
                                         </BillItem>
                                     )

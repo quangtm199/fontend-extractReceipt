@@ -11,7 +11,7 @@ EarningsOverView.propTypes = {
 };
 
 const http = axios.create({
-    baseURL: ' http://172.18.5.16:4000',
+    baseURL: ' http://127.0.0.1:4000',
     headers: { "Content-type": "application/json" }
 
 
@@ -59,17 +59,18 @@ function EarningsOverView(props) {
             var totalmonth = 0
             var month123 = today.getMonth() + 1
             for (var i = 0; i < res.data.length; i++) {
-               
-             
-           
+
+
+
                 var time_submit = parseInt(String(res.data[i]['time_submit']).split("-")[1])
-                if (time_submit ==month123) {
+                if (time_submit == month123) {
                     var converint = res.data[i]['totalcost'].replace(",", "").replace(".", "")
-                    if (converint){
-                        totalmonth = totalmonth + parseInt(converint)}
+                    if (converint) {
+                        totalmonth = totalmonth + parseInt(converint)
+                    }
 
                     idmonth = idmonth + 1
-             
+
                 }
                 // console.log(parseInt(res.data[i]['totalcost'].replace(",","").replace(".","")))
                 if (res.data[i]['totalcost']) {

@@ -1,0 +1,1386 @@
+{
+  "bills": [
+    {
+      "id_sp": "25e234-d9f-b3b-738-bc2-c70928",
+      "avatar": "receipt_1584_rs_groundtruth.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "13:49/3/1",
+      "type": "shopping",
+      "name": "",
+      "id": 1
+    },
+    {
+      "id_sp": "14e0fe-5c9-0b0-475-adb-4bf99a",
+      "avatar": "receipt_1583_rs_predict.jpg",
+      "status": "notdone",
+      "note": "Shoppong\n",
+      "time": "15:25/3/1",
+      "type": "shopping",
+      "name": "",
+      "id": 2
+    },
+    {
+      "id_sp": "f94f48-79b-094-421-5f2-a2b232",
+      "avatar": "receipt_101_rs.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "16:3/3/1",
+      "type": "shopping",
+      "name": "",
+      "id": 3
+    },
+    {
+      "id_sp": "6d1593-6ae-4ac-7af-8cd-a29ea6",
+      "avatar": "20180706_080733-1530844429.jpg",
+      "status": "notdone",
+      "note": "Mô tả ",
+      "time": "20:39/3/1",
+      "type": "electronic",
+      "name": "",
+      "id": 4
+    },
+    {
+      "id_sp": "4fa5ef-428-40f-406-467-5ff866",
+      "avatar": "c9789cd6-57be-419f-bc29-666ff886b088-1529226125.jpeg",
+      "status": "notdone",
+      "note": "note",
+      "time": "20:46/3/1",
+      "type": "electronic",
+      "name": "",
+      "id": 5
+    },
+    {
+      "id_sp": "f95b0b-b4c-e1b-b96-35c-1ea5b4",
+      "avatar": "20180619_220930-1531477293.jpg",
+      "status": "notdone",
+      "note": "Hóa đơn",
+      "time": "21:31/3/1",
+      "type": "electronic",
+      "name": "",
+      "id": 6
+    },
+    {
+      "id_sp": "deab29-31f-f3b-fac-ffd-9aa45d",
+      "avatar": "foody-vinmart-thai-thinh-938-636275047115505053.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "21:10/7/2",
+      "type": "shopping",
+      "name": "",
+      "id": 7
+    },
+    {
+      "id_sp": "e47d79-f7e-509-357-af6-62fa64",
+      "avatar": "foody-vinmart-thai-thinh-938-636275047115505053.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "21:16/7/2",
+      "type": "shopping",
+      "name": "",
+      "id": 8
+    },
+    {
+      "id_sp": "91f662-ce5-2f0-c42-1ac-a90c0",
+      "avatar": "0825_vinmart5.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "21:21/7/2",
+      "type": "shopping",
+      "name": "",
+      "id": 9
+    },
+    {
+      "id_sp": "ee5933-ebe-830-e22-273-691059",
+      "avatar": "receipt009_33.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "21:21/7/2",
+      "type": "shopping",
+      "name": "",
+      "id": 10
+    },
+    {
+      "id_sp": "64ed70-44d-b7e-e5e-ca7-b4a1fc",
+      "avatar": "receipt20028_12.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "21:22/7/2",
+      "type": "shopping",
+      "name": "",
+      "id": 11
+    },
+    {
+      "id_sp": "5ea120-092-d74-e47-bd3-cee4c2",
+      "avatar": "hoadon3.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "23:33/14/2",
+      "type": "shopping",
+      "name": "",
+      "id": 12
+    },
+    {
+      "id_sp": "2504a9-ab3-9d-2bc-bc8-a7c924",
+      "avatar": "hoadon3.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "23:36/14/2",
+      "type": "shopping",
+      "name": "",
+      "id": 13
+    },
+    {
+      "id_sp": "e0494c-e58-a97-dc3-647-1ed762",
+      "avatar": "1.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "23:37/14/2",
+      "type": "shopping",
+      "name": "",
+      "id": 14
+    },
+    {
+      "id_sp": "36dcf2-59b-1b8-889-3c7-256eac",
+      "avatar": "hoadon3.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "23:43/14/2",
+      "type": "shopping",
+      "name": "",
+      "id": 15
+    },
+    {
+      "id_sp": "002440-46e-df0-b30-394-2032de",
+      "avatar": "hoadon3.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "0:2/15/2",
+      "type": "shopping",
+      "name": "",
+      "id": 16
+    },
+    {
+      "id_sp": "45046c-d92-044-9a2-3cc-cd8b2d",
+      "avatar": "receipt20025_78.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "0:23/15/2",
+      "type": "shopping",
+      "name": "",
+      "id": 17
+    },
+    {
+      "id_sp": "ec8ccf-afb-063-fe8-c99-00ec93",
+      "avatar": "receipt20025_64.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "10:30/15/2",
+      "type": "shopping",
+      "name": "",
+      "id": 18
+    },
+    {
+      "id_sp": "f7f3b7-002-a20-002-51e-92c130",
+      "avatar": "36231417_10210010712539038_6100217495904321536_n-1-1530081486.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "11:34/15/2",
+      "type": "shopping",
+      "name": "",
+      "id": 19
+    },
+    {
+      "id_sp": "e92d3c-834-ced-bb0-217-92918e",
+      "avatar": "0825_vinmart5.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "11:42/16/2",
+      "type": "electronic",
+      "name": "Hóa Đơn Vinmart",
+      "id": 20
+    },
+    {
+      "id_sp": "1c411f-2a5-42a-ef3-e66-ec98f1",
+      "avatar": "receipt20025_78.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "18:5/16/2",
+      "type": "shopping",
+      "name": "",
+      "id": 21
+    },
+    {
+      "id_sp": "dbec92-72d-570-e1c-b2b-36bd97",
+      "avatar": "photo_2022-01-14_14-59-44.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "10:21/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 22
+    },
+    {
+      "id_sp": "2aa0-b72-c43-904-261-ef1e4f",
+      "avatar": "receipt_576.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "10:23/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 23
+    },
+    {
+      "id_sp": "6d8892-7b6-eb9-2d8-2-ff7a7e",
+      "avatar": "receipt_1445.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "10:29/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 24
+    },
+    {
+      "id_sp": "3124ca-1a8-745-d9b-157-506b5",
+      "avatar": "receipt_1002.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "10:30/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 25
+    },
+    {
+      "id_sp": "032cb3-499-522-13a-597-b7f3e3",
+      "avatar": "receipt_594.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "11:12/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 26
+    },
+    {
+      "id_sp": "29878d-845-696-326-ea3-b0abdf",
+      "avatar": "receipt_1131_rs.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "11:13/17/2",
+      "type": "shopping",
+      "name": "",
+      "id": 27
+    },
+    {
+      "id_sp": "c29b78-99d-370-db7-d39-8e513f",
+      "avatar": "receipt_1131_rs.jpg",
+      "status": "notdone",
+      "note": "Hóa đơn đi chợ hôm nay ",
+      "time": "11:21/17/2",
+      "type": "shopping",
+      "name": "Hóa đơn Quang đi siêu thị",
+      "id": 28
+    },
+    {
+      "id_sp": "72b37-368-0ed-018-87d-aa52dd",
+      "avatar": "5948-1529290584.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "22:3/25/2",
+      "type": "shopping",
+      "name": "",
+      "id": 29
+    },
+    {
+      "id_sp": "755991-43c-8c3-9b4-b37-547422",
+      "avatar": "35246328_1239163806187300_4505953875039092736_n-1529306984.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "22:4/25/2",
+      "type": "shopping",
+      "name": "",
+      "id": 30
+    },
+    {
+      "id_sp": "9c8a58-c87-88f-fe6-252-e959f5",
+      "avatar": "4-1529139134.png",
+      "status": "notdone",
+      "note": "",
+      "time": "22:10/25/2",
+      "type": "shopping",
+      "name": "",
+      "id": 31
+    },
+    {
+      "id_sp": "69143-a3f-a3b-cd3-e7a-f7c993",
+      "avatar": "image-1532089396.jpeg",
+      "status": "notdone",
+      "note": "",
+      "time": "22:15/25/2",
+      "type": "shopping",
+      "name": "",
+      "id": 32
+    },
+    {
+      "id_sp": "718c47-07f-fb4-6f1-dc1-f649d",
+      "avatar": "receipt_1505_rs.jpg",
+      "status": "notdone",
+      "note": "",
+      "time": "22:16/25/2",
+      "type": "shopping",
+      "name": "",
+      "id": 33
+    }
+  ],
+  "resultBill": [
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 1
+    },
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 2
+    },
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 3
+    },
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 4
+    },
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 5
+    },
+    {
+      "address": " ĐC: 50 tương mai",
+      "item": [
+        {
+          "nameitem": "Mi  chính ajnomoto 1kg",
+          "price": "62,000",
+          "unit": "1.00",
+          "unitprice": "62,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 55 kg",
+          "price": "162,000",
+          "unit": "1.00",
+          "unitprice": "162,000"
+        },
+        {
+          "nameitem": "Bot giặt omo túi 18kg:",
+          "price": "362,000",
+          "unit": "3.00",
+          "unitprice": "62,000"
+        }
+      ],
+      "seller": "Thu Trang",
+      "storename": "Cửa Hàng Tiền Lợi",
+      "totalchange": "0",
+      "totalcost": "336,000",
+      "totalreceived": "336,000",
+      "id": 6
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+ 158 Thái Thịnh||| Số 158 Phó Thái Thịnh||| P Lũng Hạ, 0 Đồng Đa: Hà NỘI",
+      "seller": " thu ngân:001 Mã nhân viên: 09005290",
+      "phone": " hotline: 18006968",
+      "time": " 10/04/201715:36",
+      "totalcost": " 43.200",
+      "totalreceived": " 43.200",
+      "totalchange": " 0",
+      "total_qty": "",
+      "time_submit": "2022-02-07",
+      "item": [
+        {
+          "nameitem": " SCU 1.men Betagen h.tự nhiền Chai 400ml ",
+          "unit": "1",
+          "unitprice": " 25,900x1",
+          "price": " 25.900",
+          "codeitem": " 8850393919975"
+        },
+        {
+          "nameitem": " Khãn ướt VS Luck lady 25 từ: không GOI ",
+          "unit": "1",
+          "unitprice": " 17.300x1 0",
+          "price": " 17.300",
+          "codeitem": " 8936013330396"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+ 158 Thái Thịnh||| Số 158 Phó Thái Thịnh||| P Lũng Hạ, 0 Đồng Đa: Hà NỘI",
+      "seller": " thu ngân:001 Mã nhân viên: 09005290",
+      "phone": " hotline: 18006968",
+      "time": " 10/04/201715:36",
+      "totalcost": " 43.200",
+      "totalreceived": " 43.200",
+      "totalchange": " 0",
+      "total_qty": "",
+      "time_submit": "2022-02-07",
+      "item": [
+        {
+          "nameitem": " SCU 1.men Betagen h.tự nhiền Chai 400ml ",
+          "unit": "1",
+          "unitprice": " 25,900x1",
+          "price": " 25.900",
+          "codeitem": " 8850393919975"
+        },
+        {
+          "nameitem": " Khãn ướt VS Luck lady 25 từ: không GOI ",
+          "unit": "1",
+          "unitprice": " 17.300x1 0",
+          "price": " 17.300",
+          "codeitem": " 8936013330396"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " FVM HNI 1Lý Thái Tổ||| 27Lý Thái: ài Tổ:||| 0 , Hoàn T.Kiểm TP Hà 1 Nói",
+      "seller": " NVBH:09015079",
+      "phone": " ne: 18006968",
+      "time": " Ngày bán:26/10/2018 13:20",
+      "totalcost": " 49.200",
+      "totalreceived": " 0",
+      "totalchange": " 50.000",
+      "total_qty": "",
+      "time_submit": "2022-02-07",
+      "item": [
+        {
+          "nameitem": " Tân tân đấu vị tốm sy 124 ",
+          "unit": " 1",
+          "unitprice": "",
+          "price": " 49.200",
+          "codeitem": " 8936101342584"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+ HCM 1173 Liên khu 45||| 173 Liên khu 45, Bình THung Hòa||| Quận Bình Tân: TP PHCM",
+      "seller": " NVBH: 09010475",
+      "phone": " 024.71066866-32871||| Hotline: 02471066866",
+      "time": " gày bán:27/06/2019 11:09",
+      "totalcost": " 417.000",
+      "totalreceived": " 417.000",
+      "totalchange": " 0",
+      "total_qty": "",
+      "time_submit": "2022-02-07",
+      "item": [
+        {
+          "nameitem": " OMO NG bền đẹp cửa trên chai 4,2kg ",
+          "unit": " 1",
+          "unitprice": " 239.000",
+          "price": " 239.000",
+          "codeitem": " 8934868135470"
+        },
+        {
+          "nameitem": " LISTERINE NSM tar tar Protection 500ml ",
+          "unit": " 1",
+          "unitprice": " 112.000",
+          "price": " 112.000",
+          "codeitem": " 8850007811671"
+        },
+        {
+          "nameitem": " SENSODYNE KĐR giảm ngay 6 buốt ",
+          "unit": " 1",
+          "unitprice": " 66.000",
+          "price": " 66.000",
+          "codeitem": " 4892018006701"
+        }
+      ],
+      "id": 10
+    },
+    {
+      "storename": " Co.op||| VinCommerce",
+      "address": " VM+ -32 ngách 85 S Trung Từ||| Số 321 2 ngách1.85 ngóy Trung TẢ||| P.Thời 1 Quan Q Đống Đa HN",
+      "seller": " NVBH:09005428",
+      "phone": " 024.71066866-24421||| Hotline: 02471066866",
+      "time": " Ngày bán:28/06/2019 17:36",
+      "totalcost": " 230.000",
+      "totalreceived": " 230.000",
+      "totalchange": " 0",
+      "total_qty": "",
+      "time_submit": "2022-02-07",
+      "item": [
+        {
+          "nameitem": " 0MO NG bền đẹp cửa trên túi 2,7kg ",
+          "unit": " 2",
+          "unitprice": " 139.000",
+          "price": " 278.000",
+          "codeitem": " 8934868135517"
+        }
+      ],
+      "id": 11
+    },
+    {
+      "storename": " SL 847||| Home Coffee",
+      "address": " ĐC Đường GS14 DT An Bình Dương",
+      "seller": " ngân đồng ý",
+      "phone": " ĐT: 0902 018996",
+      "time": " Ngày 1106/2017 Giờ 12.59.59",
+      "totalcost": " 78,000",
+      "totalreceived": " 78,000",
+      "totalchange": "",
+      "total_qty": " 4.0",
+      "time_submit": "2022-02-14",
+      "item": [
+        {
+          "nameitem": " 8Ồ HỨC ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " COCA ",
+          "unit": "1",
+          "unitprice": " 20,000",
+          "price": " 20.000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHẺ ĐA ",
+          "unit": " 1.0S",
+          "unitprice": " 18,000",
+          "price": " 18,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHÍ SỮA ĐÃ 1.0S ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        }
+      ],
+      "id": 12
+    },
+    {
+      "storename": " SL 847||| Home Coffee",
+      "address": " ĐC Đường GS14 DT An Bình Dương",
+      "seller": " ngân đồng ý",
+      "phone": " ĐT: 0902 018996",
+      "time": " Ngày 1106/2017 Giờ 12.59.59",
+      "totalcost": " 78,000",
+      "totalreceived": " 78,000",
+      "totalchange": "",
+      "total_qty": " 4.0",
+      "time_submit": "2022-02-14",
+      "item": [
+        {
+          "nameitem": " 8Ồ HỨC ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " COCA ",
+          "unit": "1",
+          "unitprice": " 20,000",
+          "price": " 20.000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHẺ ĐA ",
+          "unit": " 1.0S",
+          "unitprice": " 18,000",
+          "price": " 18,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHÍ SỮA ĐÃ 1.0S ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        }
+      ],
+      "id": 13
+    },
+    {
+      "storename": " Saigon Co.op||| Co.op Food HN THE K-PARK",
+      "address": " Tang 1,SH42 Toa K3,Cong trinh chung CU||| ket hop dịch vu tren 0 dat H-CT2 thuoc||| Du an Dau tu xay dung Khu nha 0 H Brand||| tai Khu do thi moi Van Phú,||| P. Phu La, Q. Ha Dong, -Tp Ha GOi",
+      "seller": " Nhan vien: Doan Quang Trung",
+      "phone": "",
+      "time": " Ngay: 19/09/2019 18:13:48",
+      "totalcost": " 32,200.00",
+      "totalreceived": " 40,000.00",
+      "totalchange": " -7,800.00",
+      "total_qty": " 3",
+      "time_submit": "2022-02-14",
+      "item": [
+        {
+          "nameitem": " Ngay NAMNGU DeNhi pet 900 ",
+          "unit": "1",
+          "unitprice": " 17,600.00",
+          "price": " 17,600.00",
+          "codeitem": " 08936017361914"
+        },
+        {
+          "nameitem": " Bigot A3INOMOTO 140g ",
+          "unit": " 1",
+          "unitprice": " 10,000.00",
+          "price": " 10,000.00",
+          "codeitem": " 08935039500257"
+        },
+        {
+          "nameitem": " Bot canh HAICHAU 190g ",
+          "unit": " 1",
+          "unitprice": " 4,600.00",
+          "price": " 4,600.00",
+          "codeitem": " 08934597030107"
+        }
+      ],
+      "id": 14
+    },
+    {
+      "storename": " SL 847||| Home Coffee",
+      "address": " ĐC Đường GS14 DT An Bình Dương",
+      "seller": " ngân đồng ý",
+      "phone": " ĐT: 0902 018996",
+      "time": " Ngày 1106/2017 Giờ 12.59.59",
+      "totalcost": " 78,000",
+      "totalreceived": " 78,000",
+      "totalchange": "",
+      "total_qty": " 4.0",
+      "time_submit": "2022-02-14",
+      "item": [
+        {
+          "nameitem": " 8Ồ HỨC ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " COCA ",
+          "unit": "1",
+          "unitprice": " 20,000",
+          "price": " 20.000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHẺ ĐA ",
+          "unit": " 1.0S",
+          "unitprice": " 18,000",
+          "price": " 18,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CA PHÍ SỮA ĐÃ 1.0S ",
+          "unit": " 10",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        }
+      ],
+      "id": 15
+    },
+    {
+      "storename": " Home Coffee",
+      "address": " ĐC Đường GS14 Dr An Bình Dương",
+      "seller": " ngàn đồng/",
+      "phone": " ĐT: 0902.018996",
+      "time": " Ngày 11/06/2017 Giờ 12.59:59",
+      "totalcost": "",
+      "totalreceived": " 78,000",
+      "totalchange": "",
+      "total_qty": " 4.0",
+      "time_submit": "2022-02-15",
+      "item": [
+        {
+          "nameitem": " BÒ HÚC ",
+          "unit": " 1.0",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " COCA ",
+          "unit": " 1.0",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CÁ PHẾ ĐÁ ",
+          "unit": " 1.0",
+          "unitprice": " 18,000",
+          "price": " 18,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " CÀ PHẾ SỮA ĐÁ ",
+          "unit": " 1.0",
+          "unitprice": " 20,000",
+          "price": " 20,000",
+          "codeitem": ""
+        }
+      ],
+      "id": 16
+    },
+    {
+      "storename": " LOTTE Mart||| LOTTE Mart TAN BINH",
+      "address": " CTY CO PHAN TTTM LOTTE VIET NAM||| CONG HOA,P. 12,Q. TAN BINH TP. HCM",
+      "seller": " CASHIER : 197019926LE THI MY THA||| CASHIER : 197019926LE THI MY THA",
+      "phone": " DT: (028) 3. 948.9055 20 Hotline:0938167692",
+      "time": " [ENT] 2019-06-2513:17",
+      "totalcost": " 238.000",
+      "totalreceived": " 238,000",
+      "totalchange": " 12.000",
+      "total_qty": " 1",
+      "time_submit": "2022-02-15",
+      "item": [
+        {
+          "nameitem": " BG OMO CF TD THOM 5.5KG ",
+          "unit": " 1",
+          "unitprice": " 238,000",
+          "price": " 238,000",
+          "codeitem": " 8934868135050"
+        }
+      ],
+      "id": 17
+    },
+    {
+      "storename": " LOTTE Mart||| LOTTE Mart TAN BINH",
+      "address": " CTY CO PHAN TTTM LOTTE VIET NAM||| 20 CONG HOA.P. 12,Q. TAN BINH, TP. HCM",
+      "seller": " CASHIER : 196019810LE THI THANH||| CASHIER :196019810LE THI THANH",
+      "phone": " DT: (028) 3. 948.9055 Hotline:0938167692",
+      "time": " [ENT] 2019-06-2416:23",
+      "totalcost": " 238,000",
+      "totalreceived": " 238,000",
+      "totalchange": " 62.000",
+      "total_qty": " 1",
+      "time_submit": "2022-02-15",
+      "item": [
+        {
+          "nameitem": " BG OMO CF TD THOM 5.5KG ",
+          "unit": "1",
+          "unitprice": " 238,000",
+          "price": " 238,000",
+          "codeitem": " 8934868135050"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " FM HNI Lý Thái Tổ||| 27 Lý Thái Tổ||| Q. Hoàn Kiểm TP Hà Nội",
+      "seller": " NVBH:09015079",
+      "phone": "",
+      "time": " Ngày bán:26/10/2018 13:20",
+      "totalcost": " 49.200",
+      "totalreceived": " 0",
+      "totalchange": " 50.000",
+      "total_qty": "",
+      "time_submit": "2022-02-16",
+      "item": [
+        {
+          "nameitem": " Tân tân đậu vị t,ồm P T24 ",
+          "unit": " 1",
+          "unitprice": "",
+          "price": " 49.200",
+          "codeitem": " 8936101342584"
+        }
+      ],
+      "id": 19
+    },
+    {
+      "storename": " LOTTE Mart||| LOTTE Mart TAN BINH",
+      "address": " CTY CO PHAN TTTM LOTTE VIET NAM||| CONG HOA,P. 12,Q. TAN BINH TP. HCM",
+      "seller": " CASHIER : 197019926 LE THI MY THA||| CASHIER : 197019926LE THI MY THA",
+      "phone": " DT: (028) 3. 948.9055 20 Hotline:0938167692",
+      "time": " [ENT] 2019-06-2513:17",
+      "totalcost": " 238.000",
+      "totalreceived": " 238,0000",
+      "totalchange": " 12.000",
+      "total_qty": " 1",
+      "time_submit": "2022-02-16",
+      "item": [
+        {
+          "nameitem": " BG OMO CF TD THOM 5.5KG ",
+          "unit": " 1",
+          "unitprice": " 238,000",
+          "price": " 238,000",
+          "codeitem": " 8934868135050"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+QNH 1060-1062 Trần Phú||| Số 1060-1062 Đường Trần Phú||| TP. Cẩm Phả Quảng Ninh",
+      "seller": " NVBH:09024146",
+      "phone": " 0247106686649301||| Hotline: 02471066866",
+      "time": " Ngày bán:14/08/2020 17:38",
+      "totalcost": " 40.000",
+      "totalreceived": " 40.000",
+      "totalchange": " 60.000",
+      "total_qty": "",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " VMHOME Bông tẩm dài BD02 ",
+          "unit": " 1",
+          "unitprice": " 40.000",
+          "price": " 40.000",
+          "codeitem": " 8934954008602"
+        }
+      ],
+      "id": 21
+    },
+    {
+      "storename": " Guitar Cafe",
+      "address": " 28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",
+      "seller": "",
+      "phone": " Tel 0085268359",
+      "time": " Ngày lập: 04/10/2020",
+      "totalcost": " 65,000",
+      "totalreceived": "",
+      "totalchange": "",
+      "total_qty": "",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Bánh mì ốp la 2 trứng Phần ",
+          "unit": " 1",
+          "unitprice": " 30,000",
+          "price": " 30,000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " Trà Gùng mật ong (nóng) -Ly ",
+          "unit": " 1",
+          "unitprice": " 35,000",
+          "price": " 35,000",
+          "codeitem": ""
+        }
+      ],
+      "id": 22
+    },
+    {
+      "storename": " MANO COFFEE||| Milano Coffee Vietnam",
+      "address": " 186 Cây Trâm, P.11, Q.Gò Vấp, TP.HCM",
+      "seller": " Thu ngân: CA 2",
+      "phone": "",
+      "time": " 02.10.202017.49",
+      "totalcost": " 39000",
+      "totalreceived": " 39000",
+      "totalchange": "",
+      "total_qty": " 1",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Hoàng đào đá xay (M) ",
+          "unit": " 1",
+          "unitprice": " 39 000",
+          "price": " 39 000",
+          "codeitem": ""
+        }
+      ],
+      "id": 23
+    },
+    {
+      "storename": " Trên Onà||| Thanh||| Xuân",
+      "address": " 244/23a Huỳnh Văn Bánh, P.11, Q.PN",
+      "seller": " Thu ngân: Administrators",
+      "phone": " Tel:0888212505",
+      "time": " Ngày/ giờ vào: 04.10.202021.08||| Ngày/ giờ ra: 04.10.202021.09",
+      "totalcost": " 81000",
+      "totalreceived": " 81000",
+      "totalchange": " 1",
+      "total_qty": " 2",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Trà đào cam ",
+          "unit": " 1",
+          "unitprice": " 42000",
+          "price": " 42000",
+          "codeitem": ""
+        },
+        {
+          "nameitem": " Trà Tây Bắc Hat Sen ",
+          "unit": " 1",
+          "unitprice": " 39000",
+          "price": " 39 000",
+          "codeitem": ""
+        }
+      ],
+      "id": 24
+    },
+    {
+      "storename": " O||| O||| O MINIMART ANAN||| O o",
+      "address": " Chợ Sủi Phú Thị Gia Lâm 0",
+      "seller": " Thu ngân: BH2",
+      "phone": " Tel: o o||| o 0 Op 0",
+      "time": " Ngày: 13/08/2020-10:34",
+      "totalcost": " 270,016",
+      "totalreceived": " 500,000",
+      "totalchange": " 229,984",
+      "total_qty": " 51",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Nước giặt ariel túi,44 NT ",
+          "unit": " 4. 00",
+          "unitprice": " 70,000",
+          "price": " 70,000",
+          "codeitem": " 4902430784337"
+        },
+        {
+          "nameitem": " Nước C2 trà xanh 360ml NT ",
+          "unit": " 1",
+          "unitprice": " 5,500",
+          "price": " 5,500",
+          "codeitem": " 291006330000"
+        },
+        {
+          "nameitem": " chai sting vàng 330ml NTo 0 ",
+          "unit": " 1",
+          "unitprice": " 6,500",
+          "price": " 6,500",
+          "codeitem": " 291012090000"
+        },
+        {
+          "nameitem": " SCU susu táo nho hộp 110ml NO ",
+          "unit": " 48 3,917",
+          "unitprice": "0",
+          "price": " 188,016",
+          "codeitem": " 291030550000"
+        }
+      ],
+      "id": 25
+    },
+    {
+      "storename": "",
+      "address": "",
+      "seller": " Nhan vien: Minh Ngoc",
+      "phone": "",
+      "time": " Ngay: 25/06/2019 19:13:32",
+      "totalcost": " 406,101.80",
+      "totalreceived": " 510,000.00",
+      "totalchange": " 103,898.20",
+      "total_qty": " 8",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Chan gio heo kg- -AHT990 ",
+          "unit": " 0.888",
+          "unitprice": " 90,000.00",
+          "price": " 79,920.00",
+          "codeitem": " 00000002958928"
+        },
+        {
+          "nameitem": " Thịt heo xay kg- -AHT990 ",
+          "unit": " 0.106",
+          "unitprice": " 75,000.00",
+          "price": " 7,950.00",
+          "codeitem": " 00000002958936"
+        },
+        {
+          "nameitem": " Ca rot Dalat kg ",
+          "unit": " 0.300",
+          "unitprice": " 29,500.00",
+          "price": " 8,850.00",
+          "codeitem": " 00000002950930"
+        },
+        {
+          "nameitem": " Khoai tay DaLat kg ",
+          "unit": " 0.162",
+          "unitprice": " 28,900.00",
+          "price": " 4,681.80",
+          "codeitem": " 0000002950990"
+        },
+        {
+          "nameitem": " Rau muong COOP 500g ",
+          "unit": " 1",
+          "unitprice": " 8,500.00",
+          "price": " 8,500.00",
+          "codeitem": " 000132635093"
+        },
+        {
+          "nameitem": " NG OMO MaticCfTdthom Tui3 ",
+          "unit": " 1",
+          "unitprice": " 171,000.00",
+          "price": " 171,000.00",
+          "codeitem": " 48934868125075"
+        },
+        {
+          "nameitem": " NG OMO MaticCfTdthom Tui3 ",
+          "unit": " 1",
+          "unitprice": " 116,900.00",
+          "price": " 116,900.00",
+          "codeitem": " 08934868125075"
+        },
+        {
+          "nameitem": " B.soco OREO KRAFT k.soco6 ",
+          "unit": " 1",
+          "unitprice": " 8,300.00",
+          "price": " 8,300.00",
+          "codeitem": " 07622210580276"
+        }
+      ],
+      "id": 26
+    },
+    {
+      "storename": "",
+      "address": "",
+      "seller": " Nhan vien: Minh Ngoc",
+      "phone": "",
+      "time": " Ngay: 25/06/2019 19:13:32",
+      "totalcost": " 406,101.80",
+      "totalreceived": " 510,000.00",
+      "totalchange": " 103,898.20",
+      "total_qty": " 8",
+      "time_submit": "2022-02-17",
+      "item": [
+        {
+          "nameitem": " Chan gio heo kg- -AHT990 ",
+          "unit": " 0.888",
+          "unitprice": " 90,000.00",
+          "price": " 79,920.00",
+          "codeitem": " 00000002958928"
+        },
+        {
+          "nameitem": " Thịt heo xay kg- -AHT990 ",
+          "unit": " 0.106",
+          "unitprice": " 75,000.00",
+          "price": " 7,950.00",
+          "codeitem": " 00000002958936"
+        },
+        {
+          "nameitem": " Ca rot Dalat kg ",
+          "unit": " 0.300",
+          "unitprice": " 29,500.00",
+          "price": " 8,850.00",
+          "codeitem": " 00000002950930"
+        },
+        {
+          "nameitem": " Khoai tay DaLat kg ",
+          "unit": " 0.162",
+          "unitprice": " 28,900.00",
+          "price": " 4,681.80",
+          "codeitem": " 0000002950990"
+        },
+        {
+          "nameitem": " Rau muong COOP 500g ",
+          "unit": " 1",
+          "unitprice": " 8,500.00",
+          "price": " 8,500.00",
+          "codeitem": " 000132635093"
+        },
+        {
+          "nameitem": " NG OMO MaticCfTdthom Tui3 ",
+          "unit": " 1",
+          "unitprice": " 171,000.00",
+          "price": " 171,000.00",
+          "codeitem": " 48934868125075"
+        },
+        {
+          "nameitem": " NG OMO MaticCfTdthom Tui3 ",
+          "unit": " 1",
+          "unitprice": " 116,900.00",
+          "price": " 116,900.00",
+          "codeitem": " 08934868125075"
+        },
+        {
+          "nameitem": " B.soco OREO KRAFT k.soco6 ",
+          "unit": " 1",
+          "unitprice": " 8,300.00",
+          "price": " 8,300.00",
+          "codeitem": " 07622210580276"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "storename": " Co.opMart TUY LY VUONG",
+      "address": " 40-54 Tuy Ly Vuong P.13N 0.8",
+      "seller": " Nhan vien: Minh Tuyen",
+      "phone": " DT: 39515465 39503777||| Hotline: 1900555568",
+      "time": " Ngay: 12/06/2018 19:40:23",
+      "totalcost": " 238,000.00",
+      "totalreceived": " 500,000.00",
+      "totalchange": " -262,000.00",
+      "total_qty": " 3",
+      "time_submit": "2022-02-25",
+      "item": [
+        {
+          "nameitem": " BG OMO Comfort t.dau thom ",
+          "unit": " 1",
+          "unitprice": " 198,000.00",
+          "price": " 198,000.00",
+          "codeitem": " 08934868129110"
+        },
+        {
+          "nameitem": " BVS KOTEX Sport c.van don ",
+          "unit": " 2",
+          "unitprice": " 20,000.00",
+          "price": " 40,000.00",
+          "codeitem": " 08935107200270"
+        }
+      ],
+      "id": 28
+    },
+    {
+      "storename": " co. .opmart TUY LY VUONG",
+      "address": " 40-54 TUY Ly Vuong P.13.",
+      "seller": " Nhan vien: Minh Tuyen",
+      "phone": " DT: 099515465 39503777||| Hotline: 1900555568",
+      "time": " Ngay: 12/06/2018 19:41:27",
+      "totalcost": " 233,500.00",
+      "totalreceived": " 250,500.00",
+      "totalchange": " -17,000.00",
+      "total_qty": " 2",
+      "time_submit": "2022-02-25",
+      "item": [
+        {
+          "nameitem": " BG OMO Comfort TDTDIEUKI ",
+          "unit": " 1",
+          "unitprice": " 198,000.00",
+          "price": " 198,000.00",
+          "codeitem": " 06934868129066"
+        },
+        {
+          "nameitem": " BCDR coL.slimsoft chsnuou ",
+          "unit": " 1",
+          "unitprice": " 35,500.00",
+          "price": " 35,500.00",
+          "codeitem": " 008935236000253"
+        }
+      ],
+      "id": 29
+    },
+    {
+      "storename": " Saigon Co.op||| Co.op Food LUONG DINH CUA",
+      "address": " 02||| 249 Luong Dinh Cua, P. An Phu,",
+      "seller": " Nhan vien: Viet Tan",
+      "phone": " DT: 37402415 FAX: 37402451",
+      "time": " Ngay: 16/06/2018 11:34:05",
+      "totalcost": " 17,500.00",
+      "totalreceived": " 100,000.00",
+      "totalchange": " -82,500.00",
+      "total_qty": " 1",
+      "time_submit": "2022-02-25",
+      "item": [
+        {
+          "nameitem": " BG OMO do 400g ",
+          "unit": " 1",
+          "unitprice": " 17,500.00",
+          "price": " 17,500.00",
+          "codeitem": " 08934868112082"
+        }
+      ],
+      "id": 30
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+ONG 61 Nguyên Duy Hiệu||| 61 Nguyễn Duy Hiệu, An Hải Đông||| Quận Son Trà, TP Đà Nằng",
+      "seller": " NVBH:0901 1650",
+      "phone": " Hotline: 18006968",
+      "time": " Ngày bán:20/07/2018 17:43",
+      "totalcost": " 102.300",
+      "totalreceived": " 102.300",
+      "totalchange": "",
+      "total_qty": "",
+      "time_submit": "2022-02-25",
+      "item": [
+        {
+          "nameitem": " xúc xích vườn bia Le Gourmet gói 200g ",
+          "unit": " 1",
+          "unitprice": " 45.600",
+          "price": " 45.600",
+          "codeitem": " 8935019503216"
+        },
+        {
+          "nameitem": " Tương cà Cho1 imex chai PET 270G T24 ",
+          "unit": " 1",
+          "unitprice": " 10.300",
+          "price": " 10.300",
+          "codeitem": " 8934637212531"
+        },
+        {
+          "nameitem": " Tương ớt Chin-su thùng 24 chaix250g ",
+          "unit": " 1",
+          "unitprice": " 11.500",
+          "price": " 11.500",
+          "codeitem": " 8936017363505"
+        },
+        {
+          "nameitem": " OMO Bột giặt thông minh 800g ",
+          "unit": " 1",
+          "unitprice": " 35.500",
+          "price": " 35.500",
+          "codeitem": " 8934868132493"
+        }
+      ],
+      "id": 31
+    },
+    {
+      "storename": " VinCommerce",
+      "address": " VM+ QNH86 Trần Phú||| Số 85 Đường Trần Phú, P.Cẩm Tây||| TP Cẩm Phả, T.Quảng Ninh,",
+      "seller": " NVBH:09020169",
+      "phone": " 024.71065866-433831||| Hotline: 02471066866",
+      "time": " Ngày bán: 10/08/202022:08",
+      "totalcost": " 18.100",
+      "totalreceived": " 18.100",
+      "totalchange": " 0",
+      "total_qty": "",
+      "time_submit": "2022-02-25",
+      "item": [
+        {
+          "nameitem": " NưỚc uống thể thao Aquarius chai 390ml ",
+          "unit": " 1",
+          "unitprice": " 8.000",
+          "price": " 8.000",
+          "codeitem": " 8935049510871"
+        },
+        {
+          "nameitem": " NưỚc Isotonic 7 Up Revive Chai500ml ",
+          "unit": " 1",
+          "unitprice": " 10.100",
+          "price": " 10.100",
+          "codeitem": " 8934588843051"
+        }
+      ],
+      "id": 32
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

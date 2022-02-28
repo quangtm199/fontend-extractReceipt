@@ -88,7 +88,7 @@ function Sobill(props) {
                                 </div>
                                 <div className="row no-gutters align-items-center">
                                     <div className="col-auto">
-                                        <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">{ernermonth['list_not_done'] / ernermonth['allBill'] * 100}%</div>
+                                        <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">100%</div>
                                     </div>
                                     <div className="col">
                                         <div className="progress progress-sm mr-2">
@@ -113,7 +113,7 @@ function Sobill(props) {
                             <div className="col mr-2">
                                 <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">
                                 Chưa Hoàn Thành</div>
-                                <div className="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                <div className="h5 mb-0 font-weight-bold text-gray-800">0</div>
                             </div>
                             <div className="col-auto">
                                 <i className="fas fa-comments fa-2x text-gray-300" />

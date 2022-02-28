@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import ViewItem from './ViewItem';
+import Changitem from './Changitem'
 import Zoom from 'react-medium-image-zoom'
+
+import httpLink_service from '../API/Configs'
+
 BillItem.propTypes = {
 
     customer: PropTypes.object,
     billdetail: PropTypes.object,
-    indexbill: PropTypes.number
+    indexbill: PropTypes.number,
+    changebill: PropTypes.func,
+    onSubmitForm: PropTypes.func
+
 };
 
 
@@ -14,18 +21,31 @@ function BillItem(props) {
     function onCloseForm() {
         setToogle(!toogle)
     }
-    const { customer, indexbill, billdetail } = props
+
+    const { customer, indexbill, billdetail, changebill, onSubmitForm } = props
+
     const [bill, setBill] = useState([]);
     const [toogle, setToogle] = useState(false);
+    const [tooglefix, setTooglefix] = useState(false);
+    function onCloseFormchange() {
+        setTooglefix(!tooglefix)
+    }
     function handleClick() {
         setToogle(!toogle)
 
 
     }
-    var ViewItem123 = toogle ? <ViewItem onCloseForm={onCloseForm} billdetail={billdetail} customer={customer} ></ViewItem> : ""
+    function handleClickchange() {
+        setTooglefix(!tooglefix)
 
 
-    const URL = "http://172.26.33.214:4002/upload/" 
+    }
+    var ViewItem1234 = tooglefix ? <Changitem onSubmitForm={onSubmitForm} indexbill={indexbill} changebill={changebill} onCloseForm={onCloseFormchange} billdetail={billdetail} customer={customer} ></Changitem> : ""
+
+    var ViewItem123 = toogle ? <ViewItem changebill={changebill} onCloseForm={onCloseForm} billdetail={billdetail} customer={customer} ></ViewItem> : ViewItem1234
+
+
+    const URL = httpLink_service.httpLink_service + "upload/"
     return (
 
         <tbody>
@@ -79,7 +99,7 @@ function BillItem(props) {
 
                         <span className="fas fa-eye"></span>Xem
                     </button>
-                    <button type="button" className="btn btn-danger" >
+                    <button type="button" className="btn btn-danger" onClick={handleClickchange} >
 
                         <span className="fas fa-edit " ></span>Chỉnh Sửa
                     </button>
